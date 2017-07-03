@@ -1,0 +1,76 @@
+Time limit: 1 sec
+Source limit: 50,000 bytes
+
+Alice has quarreled with Chef recently. So Chef gives a problem to Alice.
+Initially you are given an empty string and are allowed following two operations.
+Operation-1 : Every 'a' becomes 'c' and every 'c' becomes 'a'. For example, "acc" becomes "caa".
+Operation-2 : String is reversed. For Example, "acc" becomes "cca".
+
+Chef gives following generating equation SN = SN-1 + "a" + Operation-1(Operation-2(SN-1))
+where S0 = "" (empty string). Alice easily finds out next few sequences as:
+S1 = "a"
+S2 = "aac"
+S3 = "aacaacc"
+Now Chef asks to find Kth character of SLOC, where LOC = 102017. You need to help Alice find the answer.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+Each of the next T lines contains a number K.
+
+
+Output
+For each test case, output a single character ('a' or 'c') containing answer of problem asked by Chef".
+
+
+Constraints
+1 ≤ T ≤ 100.
+Subtask 1(20 points):1 ≤ K ≤ 105.
+Subtask 2(80 points):1 ≤ K ≤ 1018.
+
+
+Example
+Input:
+3
+1
+2
+3
+Output:
+a
+a
+cAlice has quarreled with Chef recently. So Chef gives a problem to Alice.
+Initially you are given an empty string and are allowed following two operations.
+Operation-1 : Every 'a' becomes 'c' and every 'c' becomes 'a'. For example, "acc" becomes "caa".
+Operation-2 : String is reversed. For Example, "acc" becomes "cca".
+
+Chef gives following generating equation SN = SN-1 + "a" + Operation-1(Operation-2(SN-1))
+where S0 = "" (empty string). Alice easily finds out next few sequences as:
+S1 = "a"
+S2 = "aac"
+S3 = "aacaacc"
+Now Chef asks to find Kth character of SLOC, where LOC = 102017. You need to help Alice find the answer.
+
+Input
+The first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.
+Each of the next T lines contains a number K.
+
+
+Output
+For each test case, output a single character ('a' or 'c') containing answer of problem asked by Chef".
+
+
+Constraints
+1 ≤ T ≤ 100.
+Subtask 1(20 points):1 ≤ K ≤ 105.
+Subtask 2(80 points):1 ≤ K ≤ 1018.
+
+
+Example
+Input:
+3
+1
+2
+3
+Output:
+a
+a
+c
