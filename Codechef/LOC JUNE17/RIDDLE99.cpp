@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//finding the count of numbers between a and b divisible by m
+
 int main()
 {
     int t;

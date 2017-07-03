@@ -1,7 +1,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-//find a number K from array A such that if all elements in A greater than K are changed to K, the sum of all elements in the resulting array will be S. 
+
 int main()
 {
     int t,n,i,f=0;
